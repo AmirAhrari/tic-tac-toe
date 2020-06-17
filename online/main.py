@@ -103,7 +103,7 @@ class GUI:
             self._btn_click(d)
 
     def draw(self):
-        """Draw 9x9 buttons and start new thread for online moves"""
+        """Draw 3x3 buttons and start new thread for online moves"""
         threading.Thread(target=self.handle_online_moves).start()
         count = 0
         for row in range(3):

@@ -65,7 +65,7 @@ class GUI:
         self.player = "X" if self.player == "O" else "O"
 
     def draw(self):
-        """Draw 9x9 buttons"""
+        """Draw 3x3 buttons"""
         count = 0
         for row in range(3):
             for col in range(3):
